@@ -1,3 +1,10 @@
+:root {
+  --white: #fff;
+  --dark-blue: #0b004e;
+  --dark-black: #1d152f;
+  --dark-green: #002834;
+}
+
 *,
 *::after,
 *::before {
@@ -12,5 +19,7 @@ a {
 }
 
 .app {
+  background: linear-gradient(var(--dark-blue),var(--dark-black),var(--dark-green));
+  color: var(--white);
   min-height: 100dvh;
 }

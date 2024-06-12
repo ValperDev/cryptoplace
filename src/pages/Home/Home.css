@@ -59,3 +59,30 @@
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
+.crypto-table {
+    background: linear-gradient(var(--dark-purple-1), var(--dark-purple-2));
+    border-radius: 15px 15px 0 0;
+    margin: auto;
+    max-width: 50em;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    -ms-border-radius: 15px 15px 0 0;
+    -o-border-radius: 15px 15px 0 0;
+}
+
+.crypto-table__layout {
+    align-items: center;
+    border-bottom: 1px solid var(--dark-gray);
+    display: grid;
+    grid-template-columns: .5fr 2fr 1fr 1fr 1.5fr;
+    padding: 1em 1.4em;
+}
+
+.table-layout__column--change {
+    text-align: center;
+}
+
+.table-layout__column--market {
+    text-align: right;
+}

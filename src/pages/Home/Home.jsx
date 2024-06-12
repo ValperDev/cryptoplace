@@ -17,8 +17,8 @@ function Home() {
           <p className="table-layout__column">#</p>
           <p className="table-layout__column">Coins</p>
           <p className="table-layout__column">Price</p>
-          <p className="table-layout__column">24H Change</p>
-          <p className="table-layout__column">Market Cap</p>
+          <p className="table-layout__column table-layout__column--change">24H Change</p>
+          <p className="table-layout__column table-layout__column--market">Market Cap</p>
         </div>
       </div>
     </div>
